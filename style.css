@@ -1,0 +1,512 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+header{
+    background-color: #f3e1c7;
+}
+
+nav{
+    padding-block:  1rem;
+    max-width: 1300px;
+    margin: auto;
+}
+.headTag{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+
+}
+
+.meCon > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #040201;
+}
+
+.headTag> a{
+    text-decoration: none;
+    color: #040201;
+    font-weight: 500;
+    }
+
+.headItems{
+    display: flex;
+    gap: 2rem;
+}
+
+.headItems > a{
+    color: #040201;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.headIcon{
+    display: flex;
+    align-items: center;
+
+}
+
+.headIcon>button{
+    width: 120px;
+    color: #040201;
+    padding: .6rem .11rem;
+    border: 1px solid;
+    border-radius: 600px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: #f3e1c7;
+}
+
+.bakeHap{
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.bakItems > h3{
+    font-size: 50px;
+    padding: 2rem;
+    /* border: 2px solid white; */
+}
+
+.bakPara{
+    max-width: 900px;
+ }
+
+.bakPara > p{
+    font-size: 30px;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-right: -7rem;
+}
+
+.bakBut{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bakBut>button{
+    width: 270px;
+    background-color: #307071;
+    color: white;
+    padding: .9rem;
+    border: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.bakBut > img{
+    padding-top: 3rem;
+    width: 500px;
+    background-color: #f3e1c7;
+
+}
+
+.freshItems{
+max-width: 1000px;
+margin: auto;
+
+}
+
+.freshItems > h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.freshPara > p{
+    font-size: 25px;
+    text-align: center;
+    max-width: 980px;
+}
+
+.freshBut{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.freshBut > button{
+    width: 180px;
+    background-color: #351814;
+    text-transform: capitalize;
+    color: #fefcfc;
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 1rem 1rem;
+    border: none;
+}
+
+.breCon{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+}
+
+.breCon1 > img{
+    height: 400px;
+    width: 315px;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+
+    }
+
+.breCon1 > h3{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    padding-bottom: 0.5rem;
+    font-size: 22px;
+}
+
+.breCon1 > p{
+    text-align: center;
+    max-width: 280px;
+    font-size: 16px;
+}
+
+.simpCon{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.simpItems > h3{
+    max-width: 700px;
+    font-size: 55px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    margin-top: -3rem;
+}
+
+.simpItems > p{
+    max-width: 700px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.simpBut > button{
+    width: 140px;
+    background-color: #351814;
+    color: #fefcfc;
+    text-transform: capitalize;
+    padding: 0.8rem 1rem;
+    font-size: 20px;
+    border-radius: 70px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.broMe{
+    line-height: 35px;
+    padding-bottom: 5rem;
+
+}
+
+.broMe > h3{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.broMe > p{
+    font-size: 17px;
+}
+
+.secCon{
+    background-color: #42234b;
+}
+
+.secBox{
+    background-color: #42234b;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    height: 90vh;
+    gap: 1.5rem;
+}
+
+.orgCon{
+    display: flex;
+    background-image: url(image.html/WhatsApp_Image_2025-08-05_at_13.22.54_97b47eaa-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.seaFru{
+    display: flex;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.seaFru > button{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 550px;
+    justify-content: space-between;
+    background-color: #644a6d;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15rem;
+    padding: 1rem 1rem;
+}
+
+.seaFru > button > span{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefcfc;
+}
+
+.seaFru > button > h4{
+    font-size: 20px;
+    color: #fefcfc;
+}
+
+.orgItems{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+.imgBox > img{
+    margin-left: 35rem;
+
+}
+
+.orgTxt > h3{
+    padding-top: 1.2rem;
+    color: #fefcfc;
+    font-size: 60px;
+    line-height: 5rem;
+}
+
+.orgTxt > p {
+    color: #fefcfc;
+    padding-top: 2rem;
+    font-size: 1.9rem;
+    max-width: 655px;
+
+}
+
+.leaBut{
+    margin-top: 1.5rem;
+}
+
+.leaBut > button{
+     width: 180px;
+    background-color: #f3e0c7;
+    color: black;
+    text-transform: capitalize;
+    padding: 1rem 0rem;
+    font-size: 19px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    }
+
+    .jakCon{
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        gap: 1rem;
+    }
+
+    .jakCon1{
+        width: 600px;
+        height: 540px;
+    }
+
+    .jakCon1 > img{
+        width: 430px;
+        border-radius: 10px;
+    }
+
+    .jakCon1 > h3{
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+
+    .jakCon1 > p{
+        font-size: 17.2px;
+        width: 430px;
+    }
+
+    .hazCon{
+        background-image: url(https://cdn.shopify.com/s/files/1/0437/8953/files/Hazelnuts.png?v=1652477908);
+        height: 55vh;
+    }
+
+    .cusCon{
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        height: 50vh;
+        gap: 1rem;
+    }
+
+    .cusItems{
+        margin-top: 7rem;
+    }
+
+    .cusItems > h3{
+        font-size: 40px;
+        color: #fefcfc;
+    }
+
+    .cusItems > p{
+        font-size: 25px;
+        max-width: 570px;
+        text-align: center;
+        margin-top: 1.5rem;
+        color: #fefcfc;
+    }
+
+    .reqBut{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .reqBut > button{
+        width: 200px;
+        font-size: 20px;
+        padding: 1rem 0.7rem;
+        background-color: #245c5e;
+        color: #fefcfc;
+        border-radius: 29px;
+        border: none;
+    }
+
+    .vegCon{
+        margin-top: 4rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .vegItems > img{
+        height: 250px;
+        width: 220px;
+        border-radius: 10px;
+    }
+
+    .vegItems > p{
+        text-align: center;
+        width: 200px;
+        font-size: 18px;
+        color: #fefcfc;
+    }
+
+    footer{
+        display: flex;
+        max-width: 1300px;
+        margin: auto;
+        height: 35vh;
+        gap: 14rem;
+    }
+
+    .sweCon{
+        display: flex;
+        margin-top: 4rem;
+    }
+
+    .sweItems > h3{
+        text-transform: capitalize;
+        font-size: 40px;
+        max-width: 340px;
+        color: #341514;
+    }
+
+    .sweItems > p{
+        margin-top: 4rem;
+        text-transform: capitalize;
+        font-size: 12px;
+        color: #341514;
+        font-weight: bold;
+    }
+
+    .abtCon > p{
+        text-transform: capitalize;
+        color: #523b3a;
+        line-height: 2rem;
+    }
+
+    .abtCon > a{
+        display: flex;
+        line-height: 2rem;
+        text-transform: capitalize;
+        color: #341514;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: bold;
+
+    }
+
+    .locCon{
+        display: flex;
+        margin-top: 4rem;
+        gap: 5rem;
+
+    }
+
+    .locItems{
+        line-height: 2rem;
+        
+    }
+
+    .locItems > p{
+        text-transform: capitalize;
+        color: #523b3a;
+    }
+
+    .locItems > h4{
+        color: #341514;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .staCon{
+        line-height: 2rem;
+        color: #341514;
+        gap: 3rem;
+    }
+
+    .staCon > p{
+        color: #523b3a;
+
+    }
+
+    .logo{
+       display: flex;
+       gap: 0.5rem;
+    }
+    .paraEnd{
+        margin-top: 5rem;
+        display: flex;
+        font-size: 12px;
+        color: #341514;
+        margin-left: 8.2rem;
+        gap: 2rem;
+        font-weight: bold;
+
+    }
